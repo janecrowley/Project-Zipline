@@ -1,0 +1,22 @@
+# *************************************************
+# Project Zipline Xcelium Setup
+# Jane Crowley
+# *************************************************
+
+# Load Xcelium environment
+setup xcelium 2409/24.09.010
+
+# Verisium Debug
+setenv VERISIUM_DEBUG_ROOT /grid/avs/install/verisium_debug/AGILE/latest/
+setenv PATH ${VERISIUM_DEBUG_ROOT}/bin:${PATH}
+
+# Verisium Manager and IMC
+setenv IMC_PATH /grid/avs/install/vmanager/AGILE/latest
+setenv PATH ${IMC_PATH}/tools/bin:${IMC_PATH}/bin:${PATH}
+setenv PATH ${IMC_PATH}/tools/vmgr/admin:${IMC_PATH}/bin:${PATH}
+
+
+# Zipline specific setup
+setenv RTL_ROOT /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl 
+setenv DV_ROOT /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv
+
