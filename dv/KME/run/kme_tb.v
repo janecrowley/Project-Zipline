@@ -301,7 +301,7 @@ module kme_tb;
 		  end
                end
                @(posedge clk);
-            end else if ( operation !== "#" ) begin
+            end else if ( operation != "#" ) begin
                $display ("APB_FATAL:  @time:%-d vector --> %s NOT valid!", $time, vector );
                $finish;
             end
