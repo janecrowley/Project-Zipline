@@ -84,8 +84,6 @@ ENA_BIMC
 /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_crc/cr_crc.v
 -INCDIR
 /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
--INCDIR
-/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/CCE_64/tb_top
 /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v
 ./kme_tb.v
 -DEFINE
