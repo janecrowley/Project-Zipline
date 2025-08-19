@@ -177,13 +177,16 @@ module kme_tb;
       rst_n = 1'b0; 
       
       if( $test$plusargs("SEED") ) begin
-         $value$plusargs("SEED=%d", seed);
+		if( $value$plusargs("SEED=%d", seed)) begin
+		      // hope this is ok
+		end
       end else begin
 	 seed="1";	
       end
       
       if( $test$plusargs("TESTNAME") ) begin
-         $value$plusargs("TESTNAME=%s", testname);
+	      if ($value$plusargs("TESTNAME=%s", testname)) begin
+	end
          $display("TESTNAME=%s SEED=%d", testname, seed);
       end else begin
 	 testname="unknown";	
@@ -191,7 +194,8 @@ module kme_tb;
       
       if ( $test$plusargs("waves") ) begin
          if( $test$plusargs("dump_fsdb") ) begin
-            $value$plusargs("fsdbfile+%s", fsdbFilename);
+		 if ($value$plusargs("fsdbfile+%s", fsdbFilename)) begin
+		 end
             $fsdbDumpfile(fsdbFilename);
             $fsdbDumpvars(0, `FSDB_PATH);
             $fsdbDumpMDA(0, `FSDB_PATH);

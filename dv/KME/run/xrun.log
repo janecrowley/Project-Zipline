@@ -1,5 +1,5 @@
 xrun(64): 24.09-s010: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	24.09-s010: Started on Aug 19, 2025 at 15:30:47 PDT
+TOOL:	xrun(64)	24.09-s010: Started on Aug 19, 2025 at 15:40:04 PDT
 xrun
 	-64bit
 	-sv
@@ -75,23 +75,14 @@ xrun
 	-timescale 1ns/1ps
 	-l xrun.log
 file: ./kme_tb.v
-         $value$plusargs("SEED=%d", seed);
-                       |
-xmvlog: *W,NOSYST (./kme_tb.v,180|23): System function '$value$plusargs' invoked as a task. Return value will be ignored.
-         $value$plusargs("TESTNAME=%s", testname);
-                       |
-xmvlog: *W,NOSYST (./kme_tb.v,186|23): System function '$value$plusargs' invoked as a task. Return value will be ignored.
-            $value$plusargs("fsdbfile+%s", fsdbFilename);
-                          |
-xmvlog: *W,NOSYST (./kme_tb.v,194|26): System function '$value$plusargs' invoked as a task. Return value will be ignored.
             end else if ( operation !== "#" ) begin
                                   |
-xmvlog: *E,BDSTLO (./kme_tb.v,300|34): Illegal type string left operand to !== (case inequality) operator [SystemVerilog].
+xmvlog: *E,BDSTLO (./kme_tb.v,304|34): Illegal type string left operand to !== (case inequality) operator [SystemVerilog].
             end else if ( operation !== "#" ) begin
                                           |
-xmvlog: *E,TYCMPAT (./kme_tb.v,300|42): !== (case inequality) operator types are not equivalent (expecting datatype compatible with 'string' but found 'packed array [7:0] of logic' instead).
+xmvlog: *E,TYCMPAT (./kme_tb.v,304|42): !== (case inequality) operator types are not equivalent (expecting datatype compatible with 'string' but found 'packed array [7:0] of logic' instead).
 	module worklib.kme_tb:v
-		errors: 2, warnings: 3
+		errors: 2, warnings: 0
 xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common" given but not used.
 xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library" given but not used.
 xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo" given but not used.
@@ -103,4 +94,4 @@ xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project
 	Total errors/warnings found outside modules and primitives:
 		errors: 0, warnings: 8
 xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
-TOOL:	xrun(64)	24.09-s010: Exiting on Aug 19, 2025 at 15:30:48 PDT  (total: 00:00:01)
+TOOL:	xrun(64)	24.09-s010: Exiting on Aug 19, 2025 at 15:40:06 PDT  (total: 00:00:02)
