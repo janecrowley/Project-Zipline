@@ -1,0 +1,242 @@
+xrun(64): 24.09-s010: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s010: Started on Aug 19, 2025 at 14:16:32 PDT
+xrun
+	-64bit
+	-sv
+	-access +rwc
+	-f kme.vlist
+		-f /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.vlist
+			+define+ENA_BIMC+
+			+libext+.v
+			+libext+.sv
+			+libext+.svp
+			+libext+.vh
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/include
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_int_handler.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_drbg_reggen.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_cceip_64_sa/cr_sa_counter.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_fifo.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ram_fifo.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ckv_pipeline.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_guid_stitcher.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_tlv_parser.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kim_drng_reader.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ckv_reader.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_assigner.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile_glue.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_key_tlv_compare_split.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_key_tlv_rsm.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_tlv_inspector.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_upsizer_x2.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_gcm.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_keyfilter.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_merger.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_hmac_sha256_stub.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_stream_gen.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_stream_pipe.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_keybuilder.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_drng.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_axi4s_mstr.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_axi4s2_slv.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_tlvp2_rsm.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_tlvp2_rsm_core.v
+			-sv
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap1.v
+			-sv
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap2.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi/axi_reg_slice_defs.vh
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi/axi_channel_reg_slice.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/AesSecI/AesSecIStub.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_crc/cr_crc.v
+		+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
+		+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/CCE_64/tb_top
+		/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v
+		./kme_tb.v
+	+define+TESTNAME=kme_key_type_0
+	+define+SEED=1
+	-top kme_tb
+	-timescale 1ns/1ps
+	-l xrun.log
+xmvlog: *W,NOTIND: unable to access -INCDIR /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/CCE_64/tb_top (No such file or directory).
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.v
+`include "cr_kme.vh"
+                   |
+xmvlog: *W,NORECI (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kmePKG.svp,13|19): input source text recursion detected for '/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.vh' (`include source file).
+	module worklib.cr_kme:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core.v
+	module worklib.cr_kme_core:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v
+	module worklib.cr_kme_core_glue:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v
+	module worklib.cr_kme_regfile:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_int_handler.v
+	module worklib.cr_kme_int_handler:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_drbg_reggen.v
+	module worklib.cr_kme_drbg_reggen:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_cceip_64_sa/cr_sa_counter.v
+	module worklib.cr_sa_counter:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv
+	module worklib.cr_kme_regs:sv
+		errors: 0, warnings: 0
+	module worklib.cr_kme_regs_flops:sv
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_fifo.v
+	module worklib.cr_kme_fifo:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ram_fifo.v
+	module worklib.cr_kme_ram_fifo:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ckv_pipeline.v
+	module worklib.cr_kme_ckv_pipeline:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_guid_stitcher.v
+	module worklib.cr_kme_guid_stitcher:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_tlv_parser.v
+	module worklib.cr_kme_tlv_parser:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kim_drng_reader.v
+	module worklib.cr_kme_kim_drng_reader:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ckv_reader.v
+	module worklib.cr_kme_ckv_reader:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_assigner.v
+	module worklib.cr_kme_kop_assigner:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile_glue.v
+	module worklib.cr_kme_regfile_glue:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_key_tlv_compare_split.v
+	module worklib.cr_kme_key_tlv_compare_split:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_key_tlv_rsm.v
+	module worklib.cr_kme_key_tlv_rsm:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop.v
+	module worklib.cr_kme_kop:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_tlv_inspector.v
+	module worklib.cr_kme_kop_tlv_inspector:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_upsizer_x2.v
+	module worklib.cr_kme_kop_upsizer_x2:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_gcm.v
+	module worklib.cr_kme_kop_gcm:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf.v
+	module worklib.cr_kme_kop_kdf:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_keyfilter.v
+	module worklib.cr_kme_kop_kdf_keyfilter:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_merger.v
+	module worklib.cr_kme_kop_kdf_merger:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_hmac_sha256_stub.v
+	module worklib.cr_kme_hmac_sha256_stub:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_stream_gen.v
+	module worklib.cr_kme_kop_kdf_stream_gen:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_stream_pipe.v
+	module worklib.cr_kme_kop_kdf_stream_pipe:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_keybuilder.v
+	module worklib.cr_kme_kop_keybuilder:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_drng.v
+	module worklib.cr_kme_drng:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v
+	module worklib.cr_kme_aes_256_drng:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_axi4s_mstr.v
+	module worklib.cr_axi4s_mstr:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_axi4s2_slv.v
+	module worklib.cr_axi4s2_slv:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_tlvp2_rsm.v
+	module worklib.cr_tlvp2_rsm:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_tlvp2_rsm_core.v
+	module worklib.cr_tlvp2_rsm_core:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap1.v
+	module worklib.cr_fifo_wrap1:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap2.v
+	module worklib.cr_fifo_wrap2:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi/axi_channel_reg_slice.v
+	module worklib.axi_channel_reg_slice:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/AesSecI/AesSecIStub.v
+	module worklib.AesSecIStub:v
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_crc/cr_crc.v
+  `CCX_STD_DECLARE_CRC(mycrc, POLYNOMIAL, N_CRC_WIDTH,N_DATA_WIDTH );
+                                                                    |
+xmvlog: *W,UEXPSC (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_crc/cr_crc.v,77|68): Ignored unexpected semicolon following SystemVerilog description keyword (mycrc).
+	module worklib.cr_crc:v
+		errors: 0, warnings: 1
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v
+	module worklib.apb_xactor:v
+		errors: 0, warnings: 0
+file: ./kme_tb.v
+         $value$plusargs("SEED=%d", seed);
+                       |
+xmvlog: *W,NOSYST (./kme_tb.v,180|23): System function '$value$plusargs' invoked as a task. Return value will be ignored.
+         $value$plusargs("TESTNAME=%s", testname);
+                       |
+xmvlog: *W,NOSYST (./kme_tb.v,186|23): System function '$value$plusargs' invoked as a task. Return value will be ignored.
+            $value$plusargs("fsdbfile+%s", fsdbFilename);
+                          |
+xmvlog: *W,NOSYST (./kme_tb.v,194|26): System function '$value$plusargs' invoked as a task. Return value will be ignored.
+            end else if ( operation !== "#" ) begin
+                                  |
+xmvlog: *E,BDSTLO (./kme_tb.v,300|34): Illegal type string left operand to !== (case inequality) operator [SystemVerilog].
+            end else if ( operation !== "#" ) begin
+                                          |
+xmvlog: *E,TYCMPAT (./kme_tb.v,300|42): !== (case inequality) operator types are not equivalent (expecting datatype compatible with 'string' but found 'packed array [7:0] of logic' instead).
+	module worklib.kme_tb:v
+		errors: 2, warnings: 3
+xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common" given but not used.
+xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library" given but not used.
+xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo" given but not used.
+xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top" given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 10
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	24.09-s010: Exiting on Aug 19, 2025 at 14:16:34 PDT  (total: 00:00:02)

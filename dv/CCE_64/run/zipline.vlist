@@ -9,7 +9,7 @@
 
 -f $RTL_ROOT/cr_cceip_64/cr_cceip_64.vlist
 
-+incdir+$DV_ROOT/agents/apb
-+incdir+$DV_ROOT/CCE_64/tb_top
+-incdir $DV_ROOT/agents/apb
+-incdir $DV_ROOT/CCE_64/tb_top
 $DV_ROOT/agents/apb/apb_xactor.v
 ./zipline_tb.v

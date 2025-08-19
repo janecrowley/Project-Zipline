@@ -1,0 +1,4 @@
+#e1(19Aug2025:14:04:29): source ./xcelium.d/env.d/env.history.19Aug2025_14_04_29
+s1(19Aug2025:14:04:29):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
+#e2(19Aug2025:14:16:32): source ./xcelium.d/env.d/env.history.19Aug2025_14_16_32
+s2(19Aug2025:14:16:32):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 

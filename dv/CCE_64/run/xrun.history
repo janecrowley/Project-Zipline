@@ -1,0 +1,20 @@
+#e1(18Aug2025:13:20:17): source ./xcelium.d/env.d/env.history.18Aug2025_13_20_17
+s1(18Aug2025:13:20:17):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb 
+#e2(18Aug2025:14:26:50): source ./xcelium.d/env.d/env.history.18Aug2025_14_26_50
+s2(18Aug2025:14:26:50):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb 
+#e3(18Aug2025:14:29:06): source ./xcelium.d/env.d/env.history.18Aug2025_14_29_06
+s3(18Aug2025:14:29:06):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb 
+#e4(19Aug2025:08:43:18): source ./xcelium.d/env.d/env.history.19Aug2025_08_43_18
+s4(19Aug2025:08:43:18):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb 
+#e5(19Aug2025:09:14:50): source ./xcelium.d/env.d/env.history.19Aug2025_09_14_50
+s5(19Aug2025:09:14:50):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb 
+#e6(19Aug2025:10:19:09): source ./xcelium.d/env.d/env.history.19Aug2025_10_19_09
+s6(19Aug2025:10:19:09):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb -timescale 1ns/1ps -l xrun.log 
+#e7(19Aug2025:10:37:41): source ./xcelium.d/env.d/env.history.19Aug2025_10_37_41
+s7(19Aug2025:10:37:41):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb -timescale 1ns/1ps -l xrun.log 
+#e8(19Aug2025:10:46:02): source ./xcelium.d/env.d/env.history.19Aug2025_10_46_02
+s8(19Aug2025:10:46:02):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb -timescale 1ns/1ps -l xrun.log 
+#e9(19Aug2025:12:44:03): source ./xcelium.d/env.d/env.history.19Aug2025_12_44_03
+s9(19Aug2025:12:44:03):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb -timescale 1ns/1ps -l xrun.log 
+#e10(19Aug2025:13:21:21): source ./xcelium.d/env.d/env.history.19Aug2025_13_21_21
+s10(19Aug2025:13:21:21):  xrun -64bit -sv -access +rwc -f zipline.vlist +define+TESTNAME=xp10 +define+SEED=1 -top zipline_tb -timescale 1ns/1ps -l xrun.log 

@@ -71,8 +71,8 @@ $RTL_ROOT/common/cr_tlvp/cr_axi4s_mstr.v
 $RTL_ROOT/common/cr_tlvp/cr_axi4s2_slv.v
 $RTL_ROOT/common/cr_tlvp/cr_tlvp2_rsm.v
 $RTL_ROOT/common/cr_tlvp/cr_tlvp2_rsm_core.v
--v $RTL_ROOT/common/fifo/cr_fifo_wrap1.v
--v $RTL_ROOT/common/fifo/cr_fifo_wrap2.v
+-sv $RTL_ROOT/common/fifo/cr_fifo_wrap1.v
+-sv $RTL_ROOT/common/fifo/cr_fifo_wrap2.v
 $RTL_ROOT/common/axi/axi_reg_slice_defs.vh
 $RTL_ROOT/common/axi/axi_channel_reg_slice.v
 
