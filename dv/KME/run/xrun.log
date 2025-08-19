@@ -1,5 +1,5 @@
 xrun(64): 24.09-s010: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	24.09-s010: Started on Aug 19, 2025 at 15:40:04 PDT
+TOOL:	xrun(64)	24.09-s010: Started on Aug 19, 2025 at 16:02:33 PDT
 xrun
 	-64bit
 	-sv
@@ -74,24 +74,38 @@ xrun
 	-top kme_tb
 	-timescale 1ns/1ps
 	-l xrun.log
+Recompiling... reason: file './kme_tb.v' is newer than expected.
+	expected: Tue Aug 19 15:57:05 2025
+	actual:   Tue Aug 19 16:02:26 2025
 file: ./kme_tb.v
-            end else if ( operation !== "#" ) begin
-                                  |
-xmvlog: *E,BDSTLO (./kme_tb.v,304|34): Illegal type string left operand to !== (case inequality) operator [SystemVerilog].
-            end else if ( operation !== "#" ) begin
-                                          |
-xmvlog: *E,TYCMPAT (./kme_tb.v,304|42): !== (case inequality) operator types are not equivalent (expecting datatype compatible with 'string' but found 'packed array [7:0] of logic' instead).
 	module worklib.kme_tb:v
-		errors: 2, warnings: 0
-xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common" given but not used.
-xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library" given but not used.
+		errors: 0, warnings: 0
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top/bimc_master.v
 xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo" given but not used.
-xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top" given but not used.
 xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library given but not used.
 xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo given but not used.
 xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp given but not used.
 xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb given but not used.
 	Total errors/warnings found outside modules and primitives:
-		errors: 0, warnings: 8
-xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
-TOOL:	xrun(64)	24.09-s010: Exiting on Aug 19, 2025 at 15:40:06 PDT  (total: 00:00:02)
+		errors: 0, warnings: 5
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+		Caching library 'top' ....... Done
+		Caching library 'nx_library' ....... Done
+		Caching library 'common' ....... Done
+	Top level design units:
+		cr_kme_regfilePKG
+		cr_kme_regsPKG
+		cr_kmePKG
+		nx_mem_typePKG
+		nx_mem_typePKG_v2
+		kme_tb
+    always @ (*) begin
+           |
+xmelab: *W,STARMT (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v,257|11): This @* expands to empty list, will never wake up.
+         $display("TESTNAME=%s SEED=%d", testname, seed);
+                                                      |
+xmelab: *E,STRDIS (./kme_tb.v,190|54): A variable of type string is supplied to (%d).
+xrun: *E,ELBERR: Error (*E) or soft error (*SE) occurred during elaboration (status 1), exiting.
+TOOL:	xrun(64)	24.09-s010: Exiting on Aug 19, 2025 at 16:02:35 PDT  (total: 00:00:02)

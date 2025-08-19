@@ -192,6 +192,7 @@ module kme_tb;
 	 testname="unknown";	
       end
       
+      /*
       if ( $test$plusargs("waves") ) begin
          if( $test$plusargs("dump_fsdb") ) begin
 		 if ($value$plusargs("fsdbfile+%s", fsdbFilename)) begin
@@ -205,7 +206,13 @@ module kme_tb;
             $vcdplusmemon();
          end
       end
+	*/
 
+	if ($test$plusargs("waves")) begin
+		$shm_open("waves.shm");
+		$shm_probe("ALL");
+
+	end
       $display("--- \"rst_n\" is being ASSERTED for 100ns ---");
 
       #100;
