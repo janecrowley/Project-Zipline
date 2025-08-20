@@ -1,0 +1,36 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++define+ENA_BIMC+
++libext+.v
++libext+.sv
++libext+.svp
++libext+.vh
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/include
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi
++incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
++define+TESTNAME=kme_key_type_0
++define+SEED=1
+-MESSAGES
++EMGRLOG
+xrun.log
+-XLSTIME
+1755704519
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx8664.24.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.24.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.24.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun(64)	24.09-s010"

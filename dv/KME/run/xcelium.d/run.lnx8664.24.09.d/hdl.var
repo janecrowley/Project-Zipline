@@ -5,3 +5,5 @@ include ./xllibs/hdl.var
 define SNAPSHOT worklib.cr_fifo_wrap1:v
 DEFINE RUNMODEDEFAULT 1
 DEFINE LIB_MAP ($LIB_MAP, + => worklib )
+define ELAB_SNAPSHOT
+define SNAPSHOT worklib.kme_tb:v

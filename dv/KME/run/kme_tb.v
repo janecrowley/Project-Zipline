@@ -187,7 +187,7 @@ module kme_tb;
       if( $test$plusargs("TESTNAME") ) begin
 	      if ($value$plusargs("TESTNAME=%s", testname)) begin
 	end
-         $display("TESTNAME=%s SEED=%d", testname, seed);
+         $display("TESTNAME=%s SEED=%s", testname, seed);
       end else begin
 	 testname="unknown";	
       end
@@ -281,8 +281,12 @@ module kme_tb;
 
       while( !$feof(file_descriptor) ) begin
 	 if ( $fgets(vector,file_descriptor) ) begin
+		if (vector.len() == 0 || vector[0] == "#") begin
+		    continue;
+	    	end
             $display ("APB_INFO:  @time:%-d vector --> %s", $time, vector );
-            str_get = $sscanf(vector, "%s 0x%h 0x%h", operation, address, data);
+            
+	    str_get = $sscanf(vector, "%s 0x%h 0x%h", operation, address, data);
 	    //      $display ("APB_INFO:  @time:%-d parsed vector --> %s 0x%h 0x%h    %d", $time, operation, address, data, str_get ); 
             if ( str_get == 3 && (operation == "r" || operation == "R" || operation == "w" || operation == "W") ) begin
                if ( operation == "r" || operation == "R" ) begin
