@@ -1,0 +1,117 @@
+Picked up _JAVA_OPTIONS:  -XX:+ExitOnOutOfMemoryError -XX:OnOutOfMemoryError="touch /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/out_of_memory_error" 
+CompilerOracle: exclude javax/swing/text/GlyphView.getBreakSpot
+CompilerOracle: exclude javax/swing/text/GlyphView.getBreakSpot
+Loading libdac.so from /grid/avs/install/verisium_debug/AGILE/latest//tools/lib/64bit/libdac.so
+
+Dump Strap Design DB Order:
+
+End of dump Strap Design DB Order
+
+
+
+
+in 'SimConnect::_simcontrolConnect' overlay db = null, overlayH = 0, is valid = false, operation = dapOpen, duFilename = null, isLiveSim = true
+in 'JDACTBDataProvider::notifyLiveConnectionDB', sessionId = 0
+
+
+**** found lwd dir to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+
+
+
+**** found cdslib to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+
+in 'JDACTBDataProvider::notifyLiveConnectionDB', 'dbH' represents 'simulator' db.
+PPEAttributes values:
+    isAutofetch = false
+    isPersistentSources = false
+    isXprop = false
+    cdslib = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+    snapshot = worklib.kme_tb:v
+    workdir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run
+    xceliumDir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d
+    rundDir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d
+    bits = 64
+    cds_implicit_tmpdir = 
+    cds_alternate_tmpdir = 
+    du_agent = 
+    lwddir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+    cds_alternate_cdslib = 
+    elab_options = 
+    found = true
+    nclsRun = false
+    includeCdslib = true
+    nclsOpts =  -snapshot -cdslib /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib -64
+    isMceMode = false
+    isMceInvolved = false
+    mceLshmDbPath = 
+    lowPowerInformationAvailable = false
+    hasLshmFile = false
+    workdirIsDirectory = true
+    hasOverlayRelatedInformation = true
+    cds_implicit_tmplib = 
+    cds_other_implicit_tmplibs = 
+
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+
+End of dump Strap Design DB Order
+
+
+### Excluding compile: javax.swing.text.GlyphView::getBreakSpot
+
+
+
+
+Scripting Service started, listening on port 33103...
+
+
+GOT COMMAND: 
+
+in 'JDACTBDataProvider::openDBInner', dbPath = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm, getExplicitLwdFlag() = null
+
+
+**** found lwd dir to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+
+
+
+**** found cdslib to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+ --> ida, path = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm/ida.dsn, dbH = 1433, typeH = 4, session_id = 'sjcvl-janec|x86_64|617939|1755721795|0'
+
+End of dump Strap Design DB Order
+
+
+in 'JDACTBDataProvider::openDBInner', dbPath = ida.db/ida.shm, getExplicitLwdFlag() = null
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+ --> ida, path = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm/ida.dsn, dbH = 1433, typeH = 4, session_id = 'sjcvl-janec|x86_64|617939|1755721795|0'
+
+End of dump Strap Design DB Order
+
+
+
+DT_MESSAGE starting DT for "kme_tb.kme_dut.u_cr_kme_core.kme_is_core.txc_axi_intf.u_cr_fifo_wrap2.ram_fifo.u_nx_fifo_ram_1r1w.fifo_ctrl.r_prefetch_wptr" at 0(0) 
+DT_MESSAGE signal not traced "r_prefetch_wptr" 
+
+DT_MESSAGE starting DT for "kme_tb.apb_xactor.prdata" at 453655(0) 
+DT_MESSAGE ruled out no contributor LHS != RHS "apb_prdata <= 0" 
+DT_MESSAGE keep contrib hicon changed "apb_prdata <= rbus_rd_data_i" 
+DT_MESSAGE driver list reduced to single driver "apb_prdata <= rbus_rd_data_i" 
+
+DT_MESSAGE starting DT for "kme_tb.kme_dut.u_nx_rbus_apb.rbus_rd_data_i" at 453655(0) 
+DT_MESSAGE signal not traced "rbus_rd_data_i" 
+GOT COMMAND: exit
+GOT COMMAND: stop
+null
+*** shutting down gRPC server since JVM is shutting down
+*** server shut down

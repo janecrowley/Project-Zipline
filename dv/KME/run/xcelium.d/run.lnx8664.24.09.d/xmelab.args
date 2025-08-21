@@ -2,6 +2,7 @@
 // File created by:  xrun
 // Do not modify this file
 //
++TESTNAMe=kme_aux_cmd_guid_only
 +define+ENA_BIMC+
 +libext+.v
 +libext+.sv
@@ -15,8 +16,8 @@
 +incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp
 +incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi
 +incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
-+define+TESTNAME=kme_key_type_0
 +define+SEED=1
+-GATELOOPWARN
 -ACCESS
 +rwc
 -timescale

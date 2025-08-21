@@ -1,0 +1,182 @@
+14:02:56:256 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+14:02:56:256 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+14:02:57:257 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+14:02:57:257 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+14:02:58:258 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+14:03:00:30 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 
+14:03:18:318 [user_actions] [AWT-EventQueue-0] DEBUG - ToogleSearchToolbar (ToggleAction)
+	selected[0] = 
+
+14:03:19:319 [user_actions] [AWT-EventQueue-0] DEBUG - ToggleMeasurementToolbar (ToggleAction)
+	selected[0] = 
+
+14:03:19:319 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+14:03:20:320 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:03:21:321 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:03:21:321 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:03:23:323 [important] [TangoTaskManager-4] INFO  - ScriptingActivator while loop has finished
+14:03:26:326 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+14:03:47:347 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:03:47:347 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:03:48:348 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:03:51:351 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:03:51:351 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:03:51:351 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:06:46 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:06:46 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:06:46 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:08:48 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:08:48 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:08:48 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:40:440 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:40:440 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:40:440 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:41:441 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:41:441 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:41:441 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:43:443 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:43:443 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:43:443 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:44:444 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:44:444 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:44:444 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:45:445 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:45:445 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:45:445 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:58:458 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:58:458 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:58:458 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:58:458 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:58:458 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:58:458 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:04:59:459 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:04:59:459 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:04:59:459 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:00:50 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:00:50 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:00:50 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:01:51 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:01:51 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:01:51 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:01:51 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:01:51 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:01:51 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:02:52 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:02:52 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:02:52 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:03:53 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:03:53 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:03:53 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:04:54 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:04:54 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:04:54 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:07:57 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:07:57 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:07:57 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:05:10:510 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:05:10:510 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:05:24:524 [user_actions] [AWT-EventQueue-0] DEBUG - closeButton (GUFIUndecoratedDialog$4)
+
+14:05:33:533 [user_actions] [AWT-EventQueue-0] DEBUG - run (GSLInteractiveRunPanel$3)
+
+14:07:48:748 [important] [Indago DAC notify callback receiver] WARN  - Got dakNotify_State_Exit event with data: why user
+14:07:48:748 [important] [Indago DAC notify callback receiver] WARN  - Got dakNotify_State_Crash event with data: diag {
+Outstanding STRAP Requests:
+        strap::get f f15} requests {source file name and properties
+
+}
+14:07:48:748 [general] [pool-19-thread-1] ERROR - Error while trying to save debug state:javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/.verisium_debug_auto_save/indago_auto_save_651067_.ustt/userState (No such file or directory)]
+14:07:48:748 [general] [pool-19-thread-1] ERROR - Error while trying to save debug state
+javax.xml.bind.JAXBException: null
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:87) ~[?:2.2.0]
+	at com.cadence.smartlog.bl.data.EngineManager.SaveRestoreEngine.SaveDebugUserStateToFile(SaveRestoreEngine.java:665) ~[?:?]
+	at com.cadence.smartlog.bl.data.EngineManager.SaveRestoreEngine.saveDebugUserState(SaveRestoreEngine.java:104) ~[?:?]
+	at com.cadence.smartlog.bl.data.EngineManager.EnginesManager.saveDebugUserState(EnginesManager.java:5292) ~[?:?]
+	at com.cadence.smartlog.bl.data.EngineManager.EnginesManager.query(EnginesManager.java:9081) ~[?:?]
+	at com.cadence.tie_interfaces.dal.query.handlers.DefaultQueryHandler.getResult(DefaultQueryHandler.java:34) ~[?:?]
+	at com.cadence.indago.dal.query.DALQueryDelegate.query(DALQueryDelegate.java:106) ~[?:?]
+	at com.cadence.smartlog.gui.data.GSLServicePool.saveUserState(GSLServicePool.java:3277) ~[?:?]
+	at com.cadence.smartlog.gui.appl.GSLDebugManager.performSaveUserState(GSLDebugManager.java:4476) ~[?:?]
+	at com.cadence.smartlog.bl.data.EngineManager.SaveRestoreEngine.createAutoSaveUserStateForThisUser(SaveRestoreEngine.java:861) ~[?:?]
+	at com.cadence.smartlog.gui.data.GSLServicePool.createAutoSaveTask(GSLServicePool.java:2059) ~[?:?]
+	at com.cadence.smartlog.gui.activities.GSLAutoSaveTask.run(GSLAutoSaveTask.java:34) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_202-CDS_2021_b1]
+Caused by: java.io.FileNotFoundException: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/.verisium_debug_auto_save/indago_auto_save_651067_.ustt/userState (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_202-CDS_2021_b1]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_202-CDS_2021_b1]
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:80) ~[?:2.2.0]
+	... 18 more

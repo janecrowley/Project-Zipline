@@ -87,8 +87,6 @@ ENA_BIMC
 /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v
 ./kme_tb.v
 -DEFINE
-TESTNAME=kme_key_type_0
--DEFINE
 SEED=1
 -CDSLIB
 ./xcelium.d/run.lnx8664.24.09.d/cdsrun.lib

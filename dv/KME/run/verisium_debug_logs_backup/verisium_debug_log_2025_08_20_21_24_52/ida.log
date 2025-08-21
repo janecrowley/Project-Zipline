@@ -1,0 +1,48 @@
+14:24:25:2425 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+14:24:25:2425 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+14:24:25:2425 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+14:24:25:2425 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+14:24:26:2426 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+14:24:28:2428 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 
+14:24:46:2446 [user_actions] [AWT-EventQueue-0] DEBUG - ToogleSearchToolbar (ToggleAction)
+	selected[0] = 
+
+14:24:46:2446 [user_actions] [AWT-EventQueue-0] DEBUG - ToggleMeasurementToolbar (ToggleAction)
+	selected[0] = 
+
+14:24:47:2447 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+14:24:48:2448 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:24:49:2449 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:24:49:2449 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:24:50:2450 [important] [TangoTaskManager-4] INFO  - ScriptingActivator while loop has finished
+14:24:55:2455 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+14:25:15:2515 [user_actions] [AWT-EventQueue-0] DEBUG - Don't Restore (GUFIQuestionDialog$1)
+	dialog = autoRestoreUserState (GUFIQuestionDialog)
+
+14:25:23:2523 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:25:23:2523 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:25:23:2523 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:25:28:2528 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:25:28:2528 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:25:28:2528 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:25:31:2531 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+14:25:31:2531 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+14:25:31:2531 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:25:46:2546 [user_actions] [AWT-EventQueue-0] DEBUG - run (GSLInteractiveRunPanel$3)
+
+14:25:46:2546 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+

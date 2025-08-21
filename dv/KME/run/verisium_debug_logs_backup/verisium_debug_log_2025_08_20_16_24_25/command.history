@@ -1,0 +1,8 @@
+Connected to dc:sjcvl-janec.cadence.com:43053
+xmsim run 300ns
+xmsim run 100ns
+xmsim run 40ns
+xmsim run 40ns
+Not Connected
+%
+xmsim reset

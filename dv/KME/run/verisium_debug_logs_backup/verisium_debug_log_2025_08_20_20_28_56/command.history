@@ -1,0 +1,42 @@
+Connected to dc:sjcvl-janec.cadence.com:50167
+xmsim ida_probe -wave -wave_probe_args {kme_tb.apb_xactor kme_tb.kme_dut}
+xmsim run 50ns
+xmsim run 50ns
+xmsim run 50ns
+xmsim run 50ns
+xmsim run 50ns
+xmsim run 50ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run 5ns
+xmsim run
+xmsim exit
+xmsim stop

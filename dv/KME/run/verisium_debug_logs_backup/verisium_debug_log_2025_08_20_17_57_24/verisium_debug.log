@@ -1,0 +1,122 @@
+Picked up _JAVA_OPTIONS:  -XX:+ExitOnOutOfMemoryError -XX:OnOutOfMemoryError="touch /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/out_of_memory_error" 
+CompilerOracle: exclude javax/swing/text/GlyphView.getBreakSpot
+CompilerOracle: exclude javax/swing/text/GlyphView.getBreakSpot
+Loading libdac.so from /grid/avs/install/verisium_debug/AGILE/latest//tools/lib/64bit/libdac.so
+
+Dump Strap Design DB Order:
+
+End of dump Strap Design DB Order
+
+
+
+
+in 'SimConnect::_simcontrolConnect' overlay db = null, overlayH = 0, is valid = false, operation = dapOpen, duFilename = null, isLiveSim = true
+in 'JDACTBDataProvider::notifyLiveConnectionDB', sessionId = 0
+
+
+**** found lwd dir to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+
+
+
+**** found cdslib to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+
+in 'JDACTBDataProvider::notifyLiveConnectionDB', 'dbH' represents 'simulator' db.
+PPEAttributes values:
+    isAutofetch = false
+    isPersistentSources = false
+    isXprop = false
+    cdslib = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+    snapshot = worklib.kme_tb:v
+    workdir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run
+    xceliumDir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d
+    rundDir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d
+    bits = 64
+    cds_implicit_tmpdir = 
+    cds_alternate_tmpdir = 
+    du_agent = 
+    lwddir = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+    cds_alternate_cdslib = 
+    elab_options = 
+    found = true
+    nclsRun = false
+    includeCdslib = true
+    nclsOpts =  -snapshot -cdslib /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib -64
+    isMceMode = false
+    isMceInvolved = false
+    mceLshmDbPath = 
+    lowPowerInformationAvailable = false
+    hasLshmFile = false
+    workdirIsDirectory = true
+    hasOverlayRelatedInformation = true
+    cds_implicit_tmplib = 
+    cds_other_implicit_tmplibs = 
+
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+
+End of dump Strap Design DB Order
+
+
+### Excluding compile: javax.swing.text.GlyphView::getBreakSpot
+
+
+
+
+Scripting Service started, listening on port 38881...
+
+
+GOT COMMAND: 
+
+in 'JDACTBDataProvider::openDBInner', dbPath = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm, getExplicitLwdFlag() = null
+
+
+**** found lwd dir to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+
+
+
+**** found cdslib to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+ --> ida, path = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm/ida.dsn, dbH = 1098, typeH = 4, session_id = 'sjcvl-janec|x86_64|536212|1755712761|0'
+
+End of dump Strap Design DB Order
+
+
+in 'JDACTBDataProvider::openDBInner', dbPath = ida.db/ida.shm, getExplicitLwdFlag() = null
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+ --> ida, path = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm/ida.dsn, dbH = 1098, typeH = 4, session_id = 'sjcvl-janec|x86_64|536212|1755712761|0'
+
+End of dump Strap Design DB Order
+
+
+in 'JDACTBDataProvider::openDBInner', dbPath = ida.db/ida.shm, getExplicitLwdFlag() = null
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+ --> ida, path = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm/ida.dsn, dbH = 1098, typeH = 4, session_id = 'sjcvl-janec|x86_64|536212|1755712761|0'
+
+End of dump Strap Design DB Order
+
+
+
+
+**** found lwd dir to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+
+
+
+**** found cdslib to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+
+*** shutting down gRPC server since JVM is shutting down
+*** server shut down

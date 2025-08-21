@@ -40,6 +40,4 @@ ENA_BIMC
 -INCDIR
 /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
 -DEFINE
-TESTNAME=kme_key_type_0
--DEFINE
 SEED=1

@@ -4,11 +4,12 @@
 //
 -64bit
 -sv
+-gateloopwarn
 -access
 +rwc
 -f
 kme.vlist
-+define+TESTNAME=kme_key_type_0
++TESTNAMe=kme_aux_cmd_guid_only
 +define+SEED=1
 -top
 kme_tb

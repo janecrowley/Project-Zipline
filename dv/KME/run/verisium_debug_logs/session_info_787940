@@ -1,0 +1,24 @@
+Host Info
+	Hostname: sjcvl-janec.cadence.com
+	Verisium Debug PID: 787940
+	OS Version: 4.18.0-305.el8.x86_64
+	OS Architecture: amd64
+	JDK Version: 1.8.0_202-CDS_2021_b1
+	Scripting Port: 39991
+	xmsim PID: 787258
+Design
+	Design Database: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v/debug_db/debug_db_design
+Versions
+	Verisium Debug Version: 25.06.071-a
+	xcelium version: 24.09-s010
+	lwd/snapshot version: 24.09-s010
+Invocation command: /grid/avs/install/verisium_debug/AGILE/latest//tools/bin/verisium_debug_internal   -connect dc:sjcvl-janec.cadence.com:59151 -interactive
+Databases
+	Parser Database: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.lnx8664.24.09.d/debug_db_parser
+Log Files
+	env log: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/env.log
+	verisium_debug log: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/verisium_debug.log
+	verisium_debug_karaf log: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/verisium_debug_karaf.log
+	ida log: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/ida.log
+	cdns_vwdbr log: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/cdns_vwdbr.log
+	perf log: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/verisium_debug_logs/perf.log

@@ -1,0 +1,365 @@
+10:34:33:3433 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+10:34:33:3433 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+10:34:34:3434 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+10:34:34:3434 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+10:34:35:3435 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+10:34:37:3437 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 
+10:34:57:3457 [user_actions] [AWT-EventQueue-0] DEBUG - ToogleSearchToolbar (ToggleAction)
+	selected[0] = 
+
+10:34:57:3457 [user_actions] [AWT-EventQueue-0] DEBUG - ToggleMeasurementToolbar (ToggleAction)
+	selected[0] = 
+
+10:34:58:3458 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+10:34:59:3459 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:34:59:3459 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:34:59:3459 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:35:01:351 [important] [TangoTaskManager-4] INFO  - ScriptingActivator while loop has finished
+10:35:06:356 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+10:35:44:3544 [user_actions] [AWT-EventQueue-0] DEBUG - sendToWaveformActionSet (GSLSendToWaveActionSet)
+	source = designTopsTreeTable
+	entity = kme_tb.kme_dut
+
+10:37:05:375 [user_actions] [AWT-EventQueue-0] DEBUG - showFiles (GSLOpenShowFilesAction)
+
+10:37:36:3736 [user_actions] [AWT-EventQueue-0] DEBUG - openFile (GSLLoadedFilesDialog$GSLLoadFilesAction)
+	entity = cr_kme.v
+	dialog = filesDialog (GSLLoadedFilesDialog)
+
+10:37:40:3740 [user_actions] [AWT-EventQueue-0] DEBUG - showFiles (GSLOpenShowFilesAction)
+
+10:37:49:3749 [user_actions] [AWT-EventQueue-0] DEBUG - openFile (GSLLoadedFilesDialog$GSLLoadFilesAction)
+	entity = kme_tb.v
+	dialog = filesDialog (GSLLoadedFilesDialog)
+
+10:37:52:3752 [user_actions] [AWT-EventQueue-0] DEBUG - showFiles (GSLOpenShowFilesAction)
+
+10:38:01:381 [user_actions] [AWT-EventQueue-0] DEBUG - openFile (GSLLoadedFilesDialog$GSLLoadFilesAction)
+	entity = cr_kme_core.v
+	dialog = filesDialog (GSLLoadedFilesDialog)
+
+10:38:24:3824 [user_actions] [AWT-EventQueue-0] DEBUG - copyAction (GSLSourceCopyAction)
+
+10:38:26:3826 [user_actions] [AWT-EventQueue-0] DEBUG - showFiles (GSLOpenShowFilesAction)
+
+10:38:31:3831 [user_actions] [AWT-EventQueue-0] DEBUG - dndaction (GUFITransferHandler$DnDAction)
+	source = PASTE
+	target = UNNAMED (GUFIEditableTableHeaderUI$1)
+	string = cr_kme_drng
+
+10:38:36:3836 [user_actions] [AWT-EventQueue-0] DEBUG - openFile (GSLLoadedFilesDialog$GSLLoadFilesAction)
+	entity = cr_kme_drng.v
+	dialog = filesDialog (GSLLoadedFilesDialog)
+
+10:38:45:3845 [user_actions] [AWT-EventQueue-0] DEBUG - showFiles (GSLOpenShowFilesAction)
+
+10:38:48:3848 [user_actions] [AWT-EventQueue-0] DEBUG - dndaction (GUFITransferHandler$DnDAction)
+	source = PASTE
+	target = UNNAMED (GUFIEditableTableHeaderUI$1)
+	string = cr_kme_aes_256_drng
+
+10:38:57:3857 [user_actions] [AWT-EventQueue-0] DEBUG - dndaction (GUFITransferHandler$DnDAction)
+	source = PASTE
+	target = UNNAMED (GUFIEditableTableHeaderUI$1)
+	string = cr_kme_aes_256_drng
+
+10:38:59:3859 [user_actions] [AWT-EventQueue-0] DEBUG - dndaction (GUFITransferHandler$DnDAction)
+	source = PASTE
+	target = UNNAMED (GUFIEditableTableHeaderUI$1)
+	string = cr_kme_aes_256_drng
+
+10:39:03:393 [user_actions] [AWT-EventQueue-0] DEBUG - openFile (GSLLoadedFilesDialog$GSLLoadFilesAction)
+	entity = cr_kme_aes_256_drng.v
+	dialog = filesDialog (GSLLoadedFilesDialog)
+
+10:40:10:4010 [user_actions] [AWT-EventQueue-0] DEBUG - multiSourceTabControl0_tabCloseAction_0 (GUFITabHandlePanel$2)
+
+10:43:39:4339 [user_actions] [AWT-EventQueue-0] DEBUG - sendToWaveformActionSet (GSLSendToWaveActionSet)
+	source = designTopsTreeTable
+	entity = kme_tb.kme_dut.u_cr_kme_core
+
+10:45:37:4537 [user_actions] [AWT-EventQueue-0] DEBUG - sendToWaveformActionSet (GSLSendToWaveActionSet)
+	source = designTopsTreeTable
+	entity = kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng
+
+10:45:42:4542 [user_actions] [AWT-EventQueue-0] DEBUG - dndaction (GUFITransferHandler$DnDAction)
+	source = WAVEFORMTreeTable (GTXWaveTreeTable)
+	target = WAVEFORMTreeTable (GTXWaveTreeTable)
+	entities[13] = 
+		[0] kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng
+		[1] kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.clk
+		..
+		[6] kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.drng_idle
+		..
+		[11] kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.seed_life[47:0]
+		[12] kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.start
+
+10:45:57:4557 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:45:57:4557 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:45:58:4558 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:45:58:4558 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:45:59:4559 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:01:461 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:01:461 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:01:461 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:02:462 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:02:462 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:02:462 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:04:464 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:04:464 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:04:464 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:06:466 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:06:466 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:06:466 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:07:467 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:07:467 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:07:467 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:08:468 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:08:468 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:08:468 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:08:468 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:08:468 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:09:469 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:09:469 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:10:4610 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:10:4610 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:10:4610 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:10:4610 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:11:4611 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:11:4611 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:11:4611 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:12:4612 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:13:4613 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:13:4613 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:13:4613 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:15:4615 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:15:4615 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:15:4615 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:16:4616 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:16:4616 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:16:4616 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:17:4617 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:17:4617 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:17:4617 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:18:4618 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:18:4618 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:18:4618 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:18:4618 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:18:4618 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:18:4618 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:19:4619 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:19:4619 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:19:4619 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:20:4620 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:21:4621 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:22:4622 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:23:4623 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:46:24:4624 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:46:24:4624 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:46:24:4624 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:47:19:4719 [user_actions] [AWT-EventQueue-0] DEBUG - closeButton (GUFIUndecoratedDialog$4)
+
+10:50:23:5023 [user_actions] [AWT-EventQueue-0] DEBUG - multiSourceTabControl0_tabCloseAction_5 (GUFITabHandlePanel$2)
+
+10:52:53:5253 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:52:53:5253 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:52:53:5253 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:03:533 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:03:533 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:03:533 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:07:537 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:07:537 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:07:537 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:09:539 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:09:539 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:09:539 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:11:5311 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:11:5311 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:11:5311 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:13:5313 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:13:5313 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:13:5313 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:18:5318 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:18:5318 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:18:5318 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:20:5320 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:20:5320 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:20:5320 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:22:5322 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:22:5322 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+10:53:22:5322 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:53:24:5324 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+10:53:24:5324 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+

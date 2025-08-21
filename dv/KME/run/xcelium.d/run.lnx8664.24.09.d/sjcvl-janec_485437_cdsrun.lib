@@ -1,2 +1,0 @@
-SOFTINCLUDE /grid/avs/install/xcelium/2409/24.09.010/tools/inca/files/cds.lib
-define worklib ../worklib

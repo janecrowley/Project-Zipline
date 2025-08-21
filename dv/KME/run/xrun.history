@@ -1,42 +1,6 @@
-#e1(19Aug2025:14:04:29): source ./xcelium.d/env.d/env.history.19Aug2025_14_04_29
-s1(19Aug2025:14:04:29):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e2(19Aug2025:14:16:32): source ./xcelium.d/env.d/env.history.19Aug2025_14_16_32
-s2(19Aug2025:14:16:32):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e3(19Aug2025:14:40:14): source ./xcelium.d/env.d/env.history.19Aug2025_14_40_14
-s3(19Aug2025:14:40:14):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e4(19Aug2025:14:41:12): source ./xcelium.d/env.d/env.history.19Aug2025_14_41_12
-s4(19Aug2025:14:41:12):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e5(19Aug2025:14:47:27): source ./xcelium.d/env.d/env.history.19Aug2025_14_47_27
-s5(19Aug2025:14:47:27):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e6(19Aug2025:15:30:22): source ./xcelium.d/env.d/env.history.19Aug2025_15_30_22
-s6(19Aug2025:15:30:22):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e7(19Aug2025:15:30:47): source ./xcelium.d/env.d/env.history.19Aug2025_15_30_47
-s7(19Aug2025:15:30:47):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e8(19Aug2025:15:38:18): source ./xcelium.d/env.d/env.history.19Aug2025_15_38_18
-s8(19Aug2025:15:38:18):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e9(19Aug2025:15:39:27): source ./xcelium.d/env.d/env.history.19Aug2025_15_39_27
-s9(19Aug2025:15:39:27):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e10(19Aug2025:15:39:53): source ./xcelium.d/env.d/env.history.19Aug2025_15_39_53
-s10(19Aug2025:15:39:53):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e11(19Aug2025:15:40:05): source ./xcelium.d/env.d/env.history.19Aug2025_15_40_05
-s11(19Aug2025:15:40:05):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e12(19Aug2025:15:49:55): source ./xcelium.d/env.d/env.history.19Aug2025_15_49_55
-s12(19Aug2025:15:49:55):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e13(19Aug2025:15:50:18): source ./xcelium.d/env.d/env.history.19Aug2025_15_50_18
-s13(19Aug2025:15:50:18):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e14(19Aug2025:15:57:09): source ./xcelium.d/env.d/env.history.19Aug2025_15_57_09
-s14(19Aug2025:15:57:09):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e15(19Aug2025:16:02:33): source ./xcelium.d/env.d/env.history.19Aug2025_16_02_33
-s15(19Aug2025:16:02:33):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e16(19Aug2025:16:08:39): source ./xcelium.d/env.d/env.history.19Aug2025_16_08_39
-s16(19Aug2025:16:08:39):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e17(20Aug2025:08:33:46): source ./xcelium.d/env.d/env.history.20Aug2025_08_33_46
-s17(20Aug2025:08:33:46):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e18(20Aug2025:08:36:35): source ./xcelium.d/env.d/env.history.20Aug2025_08_36_35
-s18(20Aug2025:08:36:35):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e19(20Aug2025:08:39:45): source ./xcelium.d/env.d/env.history.20Aug2025_08_39_45
-s19(20Aug2025:08:39:45):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e20(20Aug2025:08:40:50): source ./xcelium.d/env.d/env.history.20Aug2025_08_40_50
-s20(20Aug2025:08:40:50):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
-#e21(20Aug2025:08:42:00): source ./xcelium.d/env.d/env.history.20Aug2025_08_42_00
-s21(20Aug2025:08:42:00):  xrun -64bit -sv -access +rwc -f kme.vlist +define+TESTNAME=kme_key_type_0 +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
+#e1(21Aug2025:09:51:42): source ./xcelium.d/env.d/env.history.21Aug2025_09_51_42
+s1(21Aug2025:09:51:42):  xrun -64bit -sv -gateloopwarn -access +rwc -f kme.vlist +TESTNAMe=kme_aux_cmd_guid_only +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
+#e2(21Aug2025:10:01:26): source ./xcelium.d/env.d/env.history.21Aug2025_10_01_26
+s2(21Aug2025:10:01:26):  xrun -64bit -sv -gateloopwarn -access +rwc -f kme.vlist +TESTNAMe=kme_aux_cmd_guid_only +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 
+#e3(21Aug2025:10:03:27): source ./xcelium.d/env.d/env.history.21Aug2025_10_03_27
+s3(21Aug2025:10:03:27):  xrun -64bit -sv -gateloopwarn -access +rwc -f kme.vlist +TESTNAMe=kme_aux_cmd_guid_only +define+SEED=1 -top kme_tb -timescale 1ns/1ps -l xrun.log 

@@ -1,0 +1,58 @@
+09:23:56:2356 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+09:23:56:2356 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+09:23:57:2357 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+09:23:57:2357 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+09:23:58:2358 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+09:23:59:2359 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 
+09:24:19:2419 [user_actions] [AWT-EventQueue-0] DEBUG - ToogleSearchToolbar (ToggleAction)
+	selected[0] = 
+
+09:24:19:2419 [user_actions] [AWT-EventQueue-0] DEBUG - ToggleMeasurementToolbar (ToggleAction)
+	selected[0] = 
+
+09:24:20:2420 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+09:24:20:2420 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:24:21:2421 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:24:21:2421 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:24:23:2423 [important] [TangoTaskManager-4] INFO  - ScriptingActivator while loop has finished
+09:24:27:2427 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+09:25:14:2514 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+09:25:14:2514 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+09:25:15:2515 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:25:24:2524 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+09:25:24:2524 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+09:25:24:2524 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:25:32:2532 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+09:25:32:2532 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+09:25:32:2532 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:25:34:2534 [user_actions] [AWT-EventQueue-0] DEBUG - deltaRunAction (GSLInteractiveRunPopup$1)
+
+09:25:34:2534 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+
+09:25:48:2548 [user_actions] [AWT-EventQueue-0] DEBUG - closeButton (GUFIUndecoratedDialog$4)
+
+09:27:27:2727 [important] [Indago DAC notify callback receiver] WARN  - Got dakNotify_State_Exit event with data: why user
+09:27:27:2727 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:27:27:2727 [important] [Indago DAC notify callback receiver] WARN  - Got dakNotify_State_Crash event with data: diag {} requests {}
+09:27:27:2727 [user_actions] [AWT-EventQueue-0] DEBUG - Verisium Debug (ChangeEngineModeAction)
+
+09:27:32:2732 [user_actions] [AWT-EventQueue-0] DEBUG - close (GSLActivator$2)
+	dialog = errorDialog (GUFIQuestionDialog)
+
+09:27:46:2746 [user_actions] [AWT-EventQueue-0] DEBUG - RESET (GSLDebugStepAction)
+

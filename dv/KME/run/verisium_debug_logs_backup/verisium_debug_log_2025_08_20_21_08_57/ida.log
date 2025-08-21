@@ -1,0 +1,36 @@
+14:08:29:829 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+14:08:29:829 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+14:08:30:830 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+14:08:30:830 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+14:08:31:831 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+14:08:32:832 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 
+14:08:51:851 [user_actions] [AWT-EventQueue-0] DEBUG - ToogleSearchToolbar (ToggleAction)
+	selected[0] = 
+
+14:08:51:851 [user_actions] [AWT-EventQueue-0] DEBUG - ToggleMeasurementToolbar (ToggleAction)
+	selected[0] = 
+
+14:08:52:852 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+14:08:53:853 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:08:54:854 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:08:54:854 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:08:55:855 [important] [TangoTaskManager-4] INFO  - ScriptingActivator while loop has finished
+14:08:59:859 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+14:09:35:935 [user_actions] [AWT-EventQueue-0] DEBUG - sendToWaveformActionSet (GSLSendToWaveActionSet)
+	source = designTopsTreeTable
+	entity = kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng
+
+14:23:21:2321 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+14:23:21:2321 [important] [Indago DAC notify callback receiver] WARN  - Got dakNotify_State_Exit event with data: why user
+14:23:21:2321 [important] [Indago DAC notify callback receiver] WARN  - Got dakNotify_State_Crash event with data: diag {} requests {}
+14:23:21:2321 [user_actions] [AWT-EventQueue-0] DEBUG - Verisium Debug (ChangeEngineModeAction)
+
+14:23:24:2324 [user_actions] [AWT-EventQueue-0] DEBUG - close (GSLActivator$2)
+	dialog = errorDialog (GUFIQuestionDialog)
+

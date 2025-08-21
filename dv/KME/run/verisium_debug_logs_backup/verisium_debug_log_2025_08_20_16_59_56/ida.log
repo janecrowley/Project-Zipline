@@ -1,0 +1,30 @@
+09:34:43:3443 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+09:34:43:3443 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+09:34:44:3444 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+09:34:44:3444 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+09:34:45:3445 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+09:34:46:3446 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 
+09:35:05:355 [user_actions] [AWT-EventQueue-0] DEBUG - ToogleSearchToolbar (ToggleAction)
+	selected[0] = 
+
+09:35:05:355 [user_actions] [AWT-EventQueue-0] DEBUG - ToggleMeasurementToolbar (ToggleAction)
+	selected[0] = 
+
+09:35:06:356 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+09:35:07:357 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:35:08:358 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:35:08:358 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+09:35:09:359 [important] [TangoTaskManager-4] INFO  - ScriptingActivator while loop has finished
+09:35:14:3514 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+09:35:23:3523 [user_actions] [AWT-EventQueue-0] DEBUG - Don't Restore (GUFIQuestionDialog$1)
+	dialog = autoRestoreUserState (GUFIQuestionDialog)
+
+09:36:04:364 [user_actions] [AWT-EventQueue-0] DEBUG - run (GSLInteractiveRunPanel$3)
+
+09:36:04:364 [user_actions] [AWT-EventQueue-0] DEBUG - RUN_FORWARD (GSLDebugStepAction)
+

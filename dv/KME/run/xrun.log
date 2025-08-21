@@ -1,8 +1,9 @@
 xrun(64): 24.09-s010: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	24.09-s010: Started on Aug 20, 2025 at 08:41:59 PDT
+TOOL:	xrun(64)	24.09-s010: Started on Aug 21, 2025 at 10:03:26 PDT
 xrun
 	-64bit
 	-sv
+	-gateloopwarn
 	-access +rwc
 	-f kme.vlist
 		-f /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.vlist
@@ -69,16 +70,20 @@ xrun
 		+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
 		/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v
 		./kme_tb.v
-	+define+TESTNAME=kme_key_type_0
+	+TESTNAMe=kme_aux_cmd_guid_only
 	+define+SEED=1
 	-top kme_tb
 	-timescale 1ns/1ps
 	-l xrun.log
-Recompiling... reason: file './kme_tb.v' is newer than expected.
-	expected: Wed Aug 20 08:40:47 2025
-	actual:   Wed Aug 20 08:41:42 2025
-file: ./kme_tb.v
-	module worklib.kme_tb:v
+
+   User defined plus("+") options:
+	+TESTNAMe=kme_aux_cmd_guid_only
+
+Recompiling... reason: file '/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v' is newer than expected.
+	expected: Thu Aug 21 10:01:00 2025
+	actual:   Thu Aug 21 10:03:18 2025
+file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v
+	module worklib.cr_kme_core_glue:v
 		errors: 0, warnings: 0
 file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top/bimc_master.v
 xmvlog: *W,LIBNOU: Library "/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo" given but not used.
@@ -101,20 +106,17 @@ xmvlog: *W,SPDUSD: Include directory /home/janec/Documents/svg_ae_rampup/project
 		nx_mem_typePKG
 		nx_mem_typePKG_v2
 		kme_tb
-    always @ (*) begin
-           |
-xmelab: *W,STARMT (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v,257|11): This @* expands to empty list, will never wake up.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.kme_tb:v <0x085a4e7f>
-			streams:  50, words: 66770
+		worklib.cr_kme_core_glue:v <0x5f1e7137>
+			streams:  33, words: 26905
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                   Instances  Unique
 		Modules:                 273      64
 		Verilog packages:          5       5
-		Registers:             6,670   2,373
+		Registers:             6,671   2,374
 		Scalar wires:          2,435       -
 		Expanded wires:          874      49
 		Vectored wires:        2,468       -
@@ -225,4 +227,93 @@ Estimate       49248 flops
 xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
 kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip2.u_ram
         512x         96b SPRAM
-xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip2.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip2.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip3.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip3.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip3.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.ckv_indirect_access.u_ram
+      32768x         64b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.ckv_indirect_access.u_ram.g.u_ram
+Estimate       32768 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.ckv_indirect_access.u_ram.g.u_ram
+Estimate     2097216 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.kim_indirect_access.u_ram
+      16384x         38b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.kim_indirect_access.u_ram.g.u_ram
+Estimate       16384 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.kim_indirect_access.u_ram.g.u_ram
+Estimate      622630 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,170): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_SNAPSHOT
+         32x         64b RegArray (       2048b)
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,172): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_SNAPSHOT
+Estimate        2112 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,170): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_COUNT
+         32x         64b RegArray (       2048b)
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,172): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_COUNT
+Estimate        2112 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_reg_indirect_access.v,168): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_CTRL
+         32x         32b RegArray (       1024b)
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_reg_indirect_access.v,170): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_CTRL
+Estimate        1056 flops
+--- "rst_n" is being ASSERTED for 100ns ---
+--- "rst_n" has been DE-ASSERTED! ---
+APB_INFO:  @time:251                  Openned test file -->  ../tests/kme.config
+APB_INFO:  @time:251                  vector --> w 0x0000033c 0x0007a120
+
+APB_INFO:  @time:263                  vector --> w 0x00000340 0x00000000
+
+APB_INFO:  @time:276                  vector --> w 0x0000030c 0xe8b3f1d5
+
+APB_INFO:  @time:288                  vector --> w 0x00000310 0x8baee4c8
+
+APB_INFO:  @time:301                  vector --> w 0x00000314 0x4e4ad426
+
+APB_INFO:  @time:313                  vector --> w 0x00000318 0xc38810b3
+
+APB_INFO:  @time:326                  vector --> w 0x0000031c 0x8aafb6e5
+
+APB_INFO:  @time:338                  vector --> w 0x00000320 0x62dba4b2
+
+APB_INFO:  @time:351                  vector --> w 0x00000324 0x562ff870
+
+APB_INFO:  @time:363                  vector --> w 0x00000328 0xa60687fe
+
+APB_INFO:  @time:376                  vector --> w 0x0000032c 0x6299da21
+
+APB_INFO:  @time:388                  vector --> w 0x00000330 0x5c9262fb
+
+APB_INFO:  @time:401                  vector --> w 0x00000334 0x0f423395
+
+APB_INFO:  @time:413                  vector --> w 0x00000338 0xdbf0fa03
+
+APB_INFO:  @time:426                  vector --> r 0x00000308 0x00000000
+
+APB_INFO:  @time:439                  vector --> w 0x00000308 0x00000001
+
+APB_INFO:  @time:452                  vector --> w 0x00000374 0x0007a120
+
+xmsim: *W,NCTERM: Simulation received SIGTERM signal from process 783663, user id 294188 (-sh).
+TOOL:	xrun(64)	24.09-s010: Exiting on Aug 21, 2025 at 10:07:23 PDT  (total: 00:03:57)

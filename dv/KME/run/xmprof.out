@@ -1,0 +1,98 @@
+xmsim(64): 24.09-s010: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+
+Linux sjcvl-janec 4.18.0-305.el8.x86_64 #1 SMP Thu Apr 29 08:54:30 EDT 2021 x86_64 1 CPU, 3736 Meg RAM, 500 hits/sec, (janec)
+
+	model name:Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz
+ 
+	cache size:25344 KB
+ 
+xmelab options:
+	-CDSLIB
+	./xcelium.d/run.lnx8664.24.09.d/cds.lib
+	-HDLVAR
+	./xcelium.d/run.lnx8664.24.09.d/hdl.var
+	-WORK
+	worklib
+	+sdiHdlDisable
+	+define+ENA_BIMC+
+	+libext+.v
+	+libext+.sv
+	+libext+.svp
+	+libext+.vh
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/include
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi
+	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
+	+define+TESTNAME=kme_key_type_0
+	+define+SEED=1
+	-TIMESCALE
+	1ns/1ps
+	-MESSAGES
+	-ACCESS
+	+rwc
+	-LWDGEN
+	kme_tb
+
+Profiled Intervals: 
+ #Id                                PBSR Info               #start                  #stop             #start_CPU          #stop_CPU               #CPS
+[ 1]                                                          0 NS   to        455.625 NS                 0.1036           648.9207           0.702239
+
+Memory Usage - 56.4M program + 422.3M data + 2.0M profile = 480.7M total
+CPU Usage - 8.3s system + 640.9s user = 649.2s total (44.9% cpu)
+
+License Acquisition Time - 0.000002s
+Snapshot Loading: CPU Usage - 0.0s system + 0.0s user = 0.1s total (44.9s, 0.2% cpu)
+
+xmsim: *W,USEPTH:Thread(s) created by a user shared library can cause profiling inaccuracy. Try -PROFTHREAD option.
+Total number of signal interrupts received by Non-Xcelium threads are 2.
+
+Derived hit_rate: 498 hps
+
+------------------------------------------------------------
+Stream Counts (323488 hits total)
+------------------------------------------------------------
+%hits #hits  #inst  name
+ 69.5 224693 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line: 120 in worklib.cr_kme_aes_256_drng [module])
+ 12.0 38797 [     ] Method SSS_MT_CNE_FW_AB_8LU_NRM (method)
+  9.0 29068 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line: 82 in worklib.cr_kme_aes_256_drng [module])
+  4.7 15218 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line/pos: 245/34 in worklib.cr_kme_aes_256_drng [module])
+  1.7  5498 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line/pos: 247/39 in worklib.cr_kme_aes_256_drng [module])
+  1.7  5433 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line/pos: 246/38 in worklib.cr_kme_aes_256_drng [module])
+  1.4  4679 [     ] outside engine
+
+------------------------------------------------------------
+Most Active Modules (behavioral)
+------------------------------------------------------------
+%hits #hits  #inst  name
+ 86.5 279910 [    1] worklib.cr_kme_aes_256_drng:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v line: 18)
+
+------------------------------------------------------------
+Stream Type Summary Counts (323488 hits total)
+------------------------------------------------------------
+%hits #hits  #inst  name
+ 78.4 253761 [    2] Always statements 
+ 12.0 38798 [     ] Simulation Engine Time 
+  8.1 26149 [    3] Anonymous continuous assignments 
+  1.4  4679 [     ] Outside engine 
+  0.0    77 [     ] HDL C interface 
+  0.0    11 [     ] User C code (VHDL C Interface) 
+  0.0     6 [     ] Waveform Dump 
+  0.0     3 [   10] Continuous assignments 
+  0.0     2 [     ] TCL Functions 
+  0.0     1 [     ] Simulation Setup Time 
+  0.0     1 [     ] RTL Evaluation Methods 
+
+------------------------------------------------------------
+Technology-wise Summary Counts (323488 hits total)
+------------------------------------------------------------
+%hits   #hits  name
+ 86.5  279914 RTL/Design 
+ 13.4   43478 Miscellaneous 
+  0.0      83 Analysis 
+  0.0      11 VHDL 
+  0.0       2 TB/SV 
+
