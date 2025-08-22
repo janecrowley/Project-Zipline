@@ -88,6 +88,7 @@ ENA_BIMC
 ./kme_tb.v
 -DEFINE
 SEED=1
+-DELAY_TRIGGER
 -CDSLIB
 ./xcelium.d/run.lnx8664.24.09.d/cdsrun.lib
 -HDLVAR

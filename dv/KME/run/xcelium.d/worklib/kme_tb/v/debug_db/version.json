@@ -1,0 +1,20 @@
+{
+    "xlm_snapshot": "kme_tb",
+    "xlm_lib": "worklib",
+    "xlm_view": "v",
+    "lwd_version": "06\/18\/25+12:47:12",
+    "install_root": "\/grid\/avs\/install\/xcelium\/2409\/24.09.010",
+    "xlm_version": "24.09-s010",
+    "build_date": "2025.06.18",
+    "xlm_plat": "x86_64",
+    "xlm_bits": "64",
+    "real_as_wreal": "0",
+    "reals_recorded": "0",
+    "features": {
+        "AVSREQ_195145": "1",
+        "INDAGO_61196": "1",
+        "AVSREQ_206414": "0",
+        "AVSREQ_206414_v2": "0",
+        "AVSREQ_211639": "0"
+    }
+}

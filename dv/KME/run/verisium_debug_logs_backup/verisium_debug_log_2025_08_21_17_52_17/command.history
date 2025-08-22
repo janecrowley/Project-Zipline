@@ -1,0 +1,32 @@
+Connected to dc:sjcvl-janec.cadence.com:47177
+xmsim stop -file /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/kme_tb.v -line 308 -all
+xmsim ida_probe -wave -wave_probe_args {kme_tb.kme_dut.apb_paddr kme_tb.kme_dut.apb_penable kme_tb.kme_dut.apb_prdata kme_tb.kme_dut.apb_pready kme_tb.kme_dut.apb_psel kme_tb.kme_dut.apb_pslverr kme_tb.kme_dut.apb_pwdata kme_tb.kme_dut.apb_pwrite kme_tb.apb_xactor.clk}
+xmsim run 100ns
+xmsim run 100ns
+xmsim run 100ns
+xmsim run -step
+xmsim run -adjacent
+xmsim ida_probe -wave -wave_probe_args {kme_tb.apb_xactor.prdata kme_tb.apb_xactor.pready kme_tb.apb_xactor.psel kme_tb.apb_xactor.pslverr kme_tb.apb_xactor.pwdata kme_tb.apb_xactor.pwrite kme_tb.apb_xactor.paddr kme_tb.apb_xactor.penable}
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run 1ns
+xmsim run -adjacent
+xmsim ida_probe -wave -wave_probe_args {kme_tb.apb_xactor.bus_timer}
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run 1ns
+xmsim run 1ns
+xmsim run 1ns
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run -adjacent
+xmsim run -return
+xmsim reset
+xmsim stop -file /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v -line 48 -all
+xmsim run
+xmsim run
+xmsim run

@@ -3,7 +3,7 @@
 	Number of recorded lines: 0
 	----------------------------------
 	Probe commands:
- 			ida_probe -wave -wave_probe_args "kme_tb.apb_xactor kme_tb.kme_dut" -uvm_record_depth "10" -uvm FALSE 
+ 			ida_probe -wave -wave_probe_args "kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.fifo_in_stall kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.fifo_in_valid kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.in_count kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.nxt_state kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.out_count kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.reseed_counter kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.reseed_counter_limit kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.rst_n kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.seed_expired kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.start kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.CiphInStall kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.KeyInStall kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.clk kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.cur_state kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.drng_ack kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.drng_fifo_overflow kme_tb.kme_dut.u_cr_kme_core.kme_is_core.drng.drng.drng_fifo_underflow" -uvm_record_depth "10" -uvm FALSE 
 
 	----------------------------------
 

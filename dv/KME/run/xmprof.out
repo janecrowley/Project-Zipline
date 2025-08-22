@@ -13,7 +13,9 @@ xmelab options:
 	./xcelium.d/run.lnx8664.24.09.d/hdl.var
 	-WORK
 	worklib
-	+sdiHdlDisable
+	-GATELOOPWARN
+	+TESTNAME=kme_aux_cmd_guid_only
+	+SEED=1
 	+define+ENA_BIMC+
 	+libext+.v
 	+libext+.sv
@@ -27,72 +29,141 @@ xmelab options:
 	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp
 	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi
 	+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
-	+define+TESTNAME=kme_key_type_0
-	+define+SEED=1
 	-TIMESCALE
 	1ns/1ps
 	-MESSAGES
 	-ACCESS
 	+rwc
-	-LWDGEN
 	kme_tb
 
 Profiled Intervals: 
  #Id                                PBSR Info               #start                  #stop             #start_CPU          #stop_CPU               #CPS
-[ 1]                                                          0 NS   to        455.625 NS                 0.1036           648.9207           0.702239
+[ 1]                                                          0 NS   to      42623.125 NS                 0.1120             0.5642       94259.952188
 
-Memory Usage - 56.4M program + 422.3M data + 2.0M profile = 480.7M total
-CPU Usage - 8.3s system + 640.9s user = 649.2s total (44.9% cpu)
+Memory Usage - 56.4M program + 292.6M data + 2.0M profile = 351.0M total
+CPU Usage - 0.2s system + 0.6s user = 0.8s total (27.8% cpu)
 
-License Acquisition Time - 0.000002s
-Snapshot Loading: CPU Usage - 0.0s system + 0.0s user = 0.1s total (44.9s, 0.2% cpu)
+License Acquisition Time - 1.000001s
+Snapshot Loading: CPU Usage - 0.1s system + 0.0s user = 0.1s total (1.4s, 6.7% cpu)
 
-xmsim: *W,USEPTH:Thread(s) created by a user shared library can cause profiling inaccuracy. Try -PROFTHREAD option.
-Total number of signal interrupts received by Non-Xcelium threads are 2.
-
-Derived hit_rate: 498 hps
+Derived hit_rate: 455 hps
 
 ------------------------------------------------------------
-Stream Counts (323488 hits total)
+Stream Counts (206 hits total)
 ------------------------------------------------------------
 %hits #hits  #inst  name
- 69.5 224693 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line: 120 in worklib.cr_kme_aes_256_drng [module])
- 12.0 38797 [     ] Method SSS_MT_CNE_FW_AB_8LU_NRM (method)
-  9.0 29068 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line: 82 in worklib.cr_kme_aes_256_drng [module])
-  4.7 15218 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line/pos: 245/34 in worklib.cr_kme_aes_256_drng [module])
-  1.7  5498 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line/pos: 247/39 in worklib.cr_kme_aes_256_drng [module])
-  1.7  5433 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line/pos: 246/38 in worklib.cr_kme_aes_256_drng [module])
-  1.4  4679 [     ] outside engine
+ 26.2    54 [   10] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v, line: 105 in nx_library.nx_ram_1rw [module])
+ 15.5    32 [    1] Task do_kme_config (file: ./kme_tb.v, line: 261 in worklib.kme_tb [module])
+ 12.1    25 [     ] outside engine
+  4.9    10 [   11] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_indirect_access_cntrl.v, line: 242 in nx_library.nx_indirect_access_cntrl [module])
+  1.9     4 [     ] Method SSS_KM_FINDRFT (method)
+  1.9     4 [     ] Method SSS_KM_CL2TA (method)
+  1.5     3 [     ] simulation setup time 
+  1.5     3 [     ] Method SSS_MT_CNE_FW_AB_8LU_NRM (method)
+  1.5     3 [    1] Task service_ob_interface (file: ./kme_tb.v, line: 422 in worklib.kme_tb [module])
+  1.5     3 [    4] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v, line: 88 in nx_library.nx_ram_1r1w [module])
+  1.5     3 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_rbus_ring.v, line: 86 in nx_library.nx_rbus_ring [module])
+  1.5     3 [   11] Non-blocking Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_indirect_access_cntrl.v, line: 259 in nx_library.nx_indirect_access_cntrl [module])
+  1.5     3 [    2] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_indirect_access_cntrl_v2.v, line: 243 in nx_library.nx_indirect_access_cntrl_v2 [module])
+  1.0     2 [     ] Method SSS_MT_ENTPES_OBS (method)
+  1.0     2 [     ] Stream rts_xfer (process)
+  1.0     2 [   10] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v, line: 206 in nx_library.nx_ram_1rw [module])
+  1.0     2 [    1] Non-blocking Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_tlv_parser.v, line: 156 in worklib.cr_kme_tlv_parser [module])
+  1.0     2 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top/bimc_master.v, line: 573 in top.bimc_master [module])
+  1.0     2 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top/bimc_master.v, line: 653 in top.bimc_master [module])
+  0.5     1 [     ] Method SSS_MT_PW2N_ACTIVE (method)
+  0.5     1 [     ] ACTIVE WAKEUP/FWD, head, rtn (method)
+  0.5     1 [     ] ACTIVE WAKEUP/FWD, head, tail, rtn (method)
+  0.5     1 [     ] Method SSS_MT_ENABLE_LONG (method)
+  0.5     1 [     ] ACTIVE POSEDGE WAKEUP(2), tail, rtn (method)
+  0.5     1 [     ] ACTIVE WAKEUP/FWD(n), head, rtn (method)
+  0.5     1 [     ] ENABLE/FWD, head, tail, rtn (method)
+  0.5     1 [     ] Method SSS_MT_RTNPES (method)
+  0.5     1 [     ] Method SSS_MT_DU_LONGNFW (method)
+  0.5     1 [     ] Method SSS_MT_DU_BYTENFW (method)
+  0.5     1 [     ] Method SSS_MT_PWP (method)
+  0.5     1 [     ] Method SSS_MT_PW2 (method)
+  0.5     1 [     ] Method SSS_MT_POSEDGE_ACTIVE (method)
+  0.5     1 [   10] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v, line: 260 in nx_library.nx_ram_1rw [module])
+  0.5     1 [    1] Task write (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v, line: 48 in worklib.apb_xactor [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v, line: 174 in worklib.cr_kme_core_glue [module])
+  0.5     1 [    1] Initial stmt (file: ./kme_tb.v, line: 51 in worklib.kme_tb [module])
+  0.5     1 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.v, line/pos: 615/51 in worklib.cr_kme [module])
+  0.5     1 [    5] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap2.v, line/pos: 188/50 in worklib.cr_fifo_wrap2 [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line: 120 in worklib.cr_kme_aes_256_drng [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v, line: 186 in worklib.cr_kme_aes_256_drng [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_guid_stitcher.v, line: 115 in worklib.cr_kme_guid_stitcher [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_rbus_apb.v, line: 83 in nx_library.nx_rbus_apb [module])
+  0.5     1 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v, line/pos: 993/52 in worklib.cr_kme_regfile [module])
+  0.5     1 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v, line/pos: 996/55 in worklib.cr_kme_regfile [module])
+  0.5     1 [    1] Anonymous continuous assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v, line/pos: 1169/62 in worklib.cr_kme_regfile [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v, line: 1963 in worklib.cr_kme_regfile [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 422 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 468 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 1861 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 1865 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 1888 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 1891 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 1954 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 2014 in worklib.cr_kme_regs [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 2914 in worklib.cr_kme_regs_flops [module])
+  0.5     1 [    1] Non-blocking Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv, line: 3675 in worklib.cr_kme_regs_flops [module])
+  0.5     1 [    1] Non-blocking Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_rbus_ring.v, line: 117 in nx_library.nx_rbus_ring [module])
+  0.5     1 [    8] Continuous Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_interface_monitor.v, line: 255 in nx_library.nx_interface_monitor [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile_glue.v, line: 239 in worklib.cr_kme_regfile_glue [module])
+  0.5     1 [    2] Non-blocking Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_indirect_access_cntrl_v2.v, line: 260 in nx_library.nx_indirect_access_cntrl_v2 [module])
+  0.5     1 [    2] Non-blocking Assignment (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_indirect_access_cntrl_v2.v, line: 419 in nx_library.nx_indirect_access_cntrl_v2 [module])
+  0.5     1 [    1] Always stmt (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_int_handler.v, line: 104 in worklib.cr_kme_int_handler [module])
+  0.5     1 [     ] ssslib snare support
 
 ------------------------------------------------------------
 Most Active Modules (behavioral)
 ------------------------------------------------------------
 %hits #hits  #inst  name
- 86.5 279910 [    1] worklib.cr_kme_aes_256_drng:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v line: 18)
+ 27.7    57 [   10] nx_library.nx_ram_1rw:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v line: 58)
+ 17.5    36 [    1] worklib.kme_tb:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/kme_tb.v line: 12)
+  6.3    13 [   11] nx_library.nx_indirect_access_cntrl:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_indirect_access_cntrl.v line: 23)
+  3.9     8 [    1] worklib.cr_kme_regs:sv (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv line: 25)
+  2.4     5 [    2] nx_library.nx_indirect_access_cntrl_v2:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_indirect_access_cntrl_v2.v line: 23)
+  1.9     4 [    1] worklib.cr_kme_regfile:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v line: 18)
+  1.9     4 [    1] top.bimc_master:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top/bimc_master.v line: 26)
+  1.9     4 [    1] nx_library.nx_rbus_ring:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_rbus_ring.v line: 33)
+  1.5     3 [    4] nx_library.nx_ram_1r1w:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v line: 30)
+  1.0     2 [    1] worklib.cr_kme_aes_256_drng:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v line: 18)
+  1.0     2 [    1] worklib.cr_kme_regs_flops:sv (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv line: 2516)
+  1.0     2 [    1] worklib.cr_kme_tlv_parser:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_tlv_parser.v line: 20)
+  0.5     1 [    1] worklib.apb_xactor:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v line: 10)
+  0.5     1 [    1] worklib.cr_kme_int_handler:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_int_handler.v line: 18)
+  0.5     1 [    1] worklib.cr_kme_core_glue:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v line: 18)
+  0.5     1 [    1] worklib.cr_kme:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.v line: 32)
+  0.5     1 [    5] worklib.cr_fifo_wrap2:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap2.v line: 39)
+  0.5     1 [    1] worklib.cr_kme_regfile_glue:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile_glue.v line: 18)
+  0.5     1 [    1] worklib.cr_kme_guid_stitcher:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_guid_stitcher.v line: 20)
+  0.5     1 [    1] nx_library.nx_rbus_apb:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_rbus_apb.v line: 33)
+  0.5     1 [    8] nx_library.nx_interface_monitor:v (file: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_interface_monitor.v line: 31)
 
 ------------------------------------------------------------
-Stream Type Summary Counts (323488 hits total)
+Stream Type Summary Counts (206 hits total)
 ------------------------------------------------------------
 %hits #hits  #inst  name
- 78.4 253761 [    2] Always statements 
- 12.0 38798 [     ] Simulation Engine Time 
-  8.1 26149 [    3] Anonymous continuous assignments 
-  1.4  4679 [     ] Outside engine 
-  0.0    77 [     ] HDL C interface 
-  0.0    11 [     ] User C code (VHDL C Interface) 
-  0.0     6 [     ] Waveform Dump 
-  0.0     3 [   10] Continuous assignments 
-  0.0     2 [     ] TCL Functions 
-  0.0     1 [     ] Simulation Setup Time 
-  0.0     1 [     ] RTL Evaluation Methods 
+ 33.0    68 [   27] Continuous assignments 
+ 17.5    36 [    3] Verilog tasks 
+ 14.6    30 [   22] Always statements 
+ 12.1    25 [     ] Outside engine 
+ 11.2    23 [     ] Simulation Engine Time 
+  4.4     9 [    6] Non-blocking assignments 
+  2.4     5 [    5] Anonymous continuous assignments 
+  2.4     5 [     ] RTL Evaluation Methods 
+  1.5     3 [     ] Simulation Setup Time 
+  0.5     1 [    1] Initial statements 
+  0.5     1 [     ] Support for callbacks (or UI) 
 
 ------------------------------------------------------------
-Technology-wise Summary Counts (323488 hits total)
+Technology-wise Summary Counts (206 hits total)
 ------------------------------------------------------------
 %hits   #hits  name
- 86.5  279914 RTL/Design 
- 13.4   43478 Miscellaneous 
-  0.0      83 Analysis 
-  0.0      11 VHDL 
-  0.0       2 TB/SV 
+ 57.3     118 RTL/Design 
+ 24.8      51 Miscellaneous 
+ 17.5      36 TB/SV 
+  0.5       1 Analysis 
 

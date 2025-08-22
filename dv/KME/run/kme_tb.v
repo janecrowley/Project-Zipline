@@ -304,7 +304,9 @@ module kme_tb;
 		     end
 		  end
                end else begin
+		  $display("\t\tJane: begin write");
 		  apb_xactor.write(address, data, response);
+		  $display("\t\tJane: end write");
 		  if ( response !== 0 ) begin
 		     $display ("\n\nAPB_FATAL:  @time:%-d   Slave ERROR and/or TIMEOUT on the WRITE operation to address 0x%h\n\n",
                                $time, address );

@@ -62,12 +62,50 @@ End of dump Strap Design DB Order
 ### Excluding compile: javax.swing.text.GlyphView::getBreakSpot
 
 
-
-
-Scripting Service started, listening on port 39991...
-
-
 GOT COMMAND: 
+
+
+
+Scripting Service started, listening on port 36319...
+
+
+in 'JDACTBDataProvider::openDBInner', dbPath = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm, getExplicitLwdFlag() = null
+
+
+**** found lwd dir to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+
+
+
+**** found cdslib to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
+
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+ --> ida, path = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm/ida.dsn, dbH = 835, typeH = 4, session_id = 'sjcvl-janec|x86_64|920205|1755811355|0'
+
+End of dump Strap Design DB Order
+
+
+in 'JDACTBDataProvider::openDBInner', dbPath = ida.db/ida.shm, getExplicitLwdFlag() = null
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump Strap Design DB Order:
+
+Strap design: simulator #8
+ --> ida, path = /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/ida.db/ida.shm/ida.dsn, dbH = 835, typeH = 4, session_id = 'sjcvl-janec|x86_64|920205|1755811355|0'
+
+End of dump Strap Design DB Order
+
+
+
+
+**** found lwd dir to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/worklib/kme_tb/v
+
+
+
+**** found cdslib to be: /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/xcelium.d/run.d/cds.lib
 
 *** shutting down gRPC server since JVM is shutting down
 *** server shut down

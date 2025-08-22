@@ -1,0 +1,19 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-64bit
+-gateloopwarn
+-access
++rwc
+-f
+kme.vlist
++TESTNAME=kme_aux_cmd_guid_only
++SEED=1
+-top
+kme_tb
+-timescale
+1ns/1ps
+-l
+xrun.log
+-profile

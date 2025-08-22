@@ -1,0 +1,48 @@
+10:26:30:2630 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+10:26:30:2630 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+10:26:30:2630 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+10:26:30:2630 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+10:26:32:2632 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+10:26:33:2633 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 
+10:26:56:2656 [user_actions] [AWT-EventQueue-0] DEBUG - ToogleSearchToolbar (ToggleAction)
+	selected[0] = 
+
+10:26:56:2656 [user_actions] [AWT-EventQueue-0] DEBUG - ToggleMeasurementToolbar (ToggleAction)
+	selected[0] = 
+
+10:26:57:2657 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+10:26:57:2657 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:26:58:2658 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:26:58:2658 [user_actions] [AWT-EventQueue-0] DEBUG - LiveSimulationRefreshWaveform (GSLLiveSimulationRefreshWaveformAction)
+
+10:27:00:270 [important] [TangoTaskManager-4] INFO  - ScriptingActivator while loop has finished
+10:27:03:273 [user_actions] [AWT-EventQueue-0] DEBUG - refreshSchematicAttributes (SchematicActionsManager$25)
+
+10:28:23:2823 [user_actions] [AWT-EventQueue-0] DEBUG - Don't Restore (GUFIQuestionDialog$1)
+	dialog = autoRestoreUserState (GUFIQuestionDialog)
+
+10:29:12:2912 [user_actions] [AWT-EventQueue-0] DEBUG - showInstTypeDeclaration (GSLShowInstTypeDeclaration)
+	source = designTopsTreeTable
+	entity = kme_tb.apb_xactor
+
+10:29:20:2920 [user_actions] [AWT-EventQueue-0] DEBUG - multiSourceTabControl0_tabCloseAction_0 (GUFITabHandlePanel$2)
+
+10:29:22:2922 [user_actions] [AWT-EventQueue-0] DEBUG - showInstTypeDeclaration (GSLShowInstTypeDeclaration)
+	source = designTopsTreeTable
+	entity = kme_tb.kme_dut
+
+10:29:31:2931 [user_actions] [AWT-EventQueue-0] DEBUG - showInstTypeDeclaration (GSLShowInstTypeDeclaration)
+	source = designTopsTreeTable
+	entity = kme_tb
+
+10:36:55:3655 [user_actions] [AWT-EventQueue-0] DEBUG - <html><u>reloadFile</html></u> (GUFILightSourceViewer$3)
+
+10:36:59:3659 [user_actions] [AWT-EventQueue-0] DEBUG -  (GUFIClosableMessagePanel$1)
+
+10:49:25:4925 [user_actions] [AWT-EventQueue-0] DEBUG - toggleBreakpoint (GSLBaseBreakPointEnabledRenderer$2)
+
+10:49:52:4952 [user_actions] [AWT-EventQueue-0] DEBUG - enableTabBp (GSLBreakPointTypeTabBox$4)
+

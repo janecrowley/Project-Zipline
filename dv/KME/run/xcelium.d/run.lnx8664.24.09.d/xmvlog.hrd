@@ -41,3 +41,4 @@ ENA_BIMC
 /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
 -DEFINE
 SEED=1
+-DELAY_TRIGGER

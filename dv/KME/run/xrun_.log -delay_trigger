@@ -1,0 +1,333 @@
+xrun(64): 24.09-s010: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s010: Started on Aug 22, 2025 at 11:39:49 PDT
+xrun
+	-64bit
+	-sv
+	-access +rwc
+	-f kme.vlist
+		-f /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.vlist
+			+define+ENA_BIMC+
+			+libext+.v
+			+libext+.sv
+			+libext+.svp
+			+libext+.vh
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/include
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp
+			+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo
+			-y /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/mem_wrappers/bimc_master/top
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_core_glue.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_int_handler.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_drbg_reggen.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_cceip_64_sa/cr_sa_counter.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regs.sv
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_fifo.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ram_fifo.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ckv_pipeline.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_guid_stitcher.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_tlv_parser.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kim_drng_reader.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_ckv_reader.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_assigner.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_regfile_glue.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_key_tlv_compare_split.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_key_tlv_rsm.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_tlv_inspector.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_upsizer_x2.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_gcm.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_keyfilter.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_merger.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_hmac_sha256_stub.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_stream_gen.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_kdf_stream_pipe.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_kop_keybuilder.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_drng.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/cr_kme/cr_kme_aes_256_drng.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_axi4s_mstr.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_axi4s2_slv.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_tlvp2_rsm.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_tlvp/cr_tlvp2_rsm_core.v
+			-sv
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap1.v
+			-sv
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/fifo/cr_fifo_wrap2.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi/axi_reg_slice_defs.vh
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/axi/axi_channel_reg_slice.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/AesSecI/AesSecIStub.v
+			/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/cr_crc/cr_crc.v
+		+incdir+/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb
+		/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/agents/apb/apb_xactor.v
+		./kme_tb.v
+	+TESTNAME=
+	+define+SEED=1
+	-top kme_tb
+	-timescale 1ns/1ps
+	-l "xrun_.log -delay_trigger"
+
+   User defined plus("+") options:
+	+TESTNAME=
+
+Loading snapshot worklib.kme_tb:v .................... Done
+xcelium> source /grid/avs/install/xcelium/2409/24.09.010/tools/xcelium/files/xmsimrc
+xcelium> run
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,125): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.txc_axi_intf.u_cr_fifo_wrap2.ram_fifo.u_nx_fifo_ram_1r1w.ram
+        168x         83b 1R1WRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,248): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.txc_axi_intf.u_cr_fifo_wrap2.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate         168 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,250): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.txc_axi_intf.u_cr_fifo_wrap2.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate       14027 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,125): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip_encrypt_kop_fifo.ram_fifo.ram_fifo.u_nx_fifo_ram_1r1w.ram
+       2048x         71b 1R1WRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,248): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip_encrypt_kop_fifo.ram_fifo.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate        2048 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,250): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip_encrypt_kop_fifo.ram_fifo.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate      145479 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,125): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip_validate_kop_fifo.ram_fifo.ram_fifo.u_nx_fifo_ram_1r1w.ram
+       2048x         71b 1R1WRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,248): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip_validate_kop_fifo.ram_fifo.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate        2048 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,250): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip_validate_kop_fifo.ram_fifo.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate      145479 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,125): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip0_key_tlv_rsm.u_cr_tlvp2_rsm.u_cr_fifo_wrap2_tob.ram_fifo.u_nx_fifo_ram_1r1w.ram
+        168x         83b 1R1WRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,248): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip0_key_tlv_rsm.u_cr_tlvp2_rsm.u_cr_fifo_wrap2_tob.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate         168 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1r1w.v,250): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_core.kme_is_core.cceip0_key_tlv_rsm.u_cr_tlvp2_rsm.u_cr_fifo_wrap2_tob.ram_fifo.u_nx_fifo_ram_1r1w.ram._1r1wramDxWb
+Estimate       14027 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip0.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip0.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip0.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip1.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip1.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip1.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip2.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip2.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip2.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip3.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip3.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cceip3.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip0.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip0.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip0.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip1.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip1.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip1.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip2.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip2.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip2.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip3.u_ram
+        512x         96b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip3.u_ram.g.u_ram
+Estimate         512 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_nx_interface_monitor_cddip3.u_ram.g.u_ram
+Estimate       49248 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.ckv_indirect_access.u_ram
+      32768x         64b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.ckv_indirect_access.u_ram.g.u_ram
+Estimate       32768 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.ckv_indirect_access.u_ram.g.u_ram
+Estimate     2097216 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,142): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.kim_indirect_access.u_ram
+      16384x         38b SPRAM
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,253): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.kim_indirect_access.u_ram.g.u_ram
+Estimate       16384 latches
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_ram_1rw.v,255): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.kim_indirect_access.u_ram.g.u_ram
+Estimate      622630 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,170): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_SNAPSHOT
+         32x         64b RegArray (       2048b)
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,172): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_SNAPSHOT
+Estimate        2112 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,170): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_COUNT
+         32x         64b RegArray (       2048b)
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_roreg_indirect_access.v,172): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_COUNT
+Estimate        2112 flops
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_reg_indirect_access.v,168): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_CTRL
+         32x         32b RegArray (       1024b)
+xmsim: *N,INFSEV (/home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/rtl/common/nx_library/nx_reg_indirect_access.v,170): (time 0 FS).
+kme_tb.kme_dut.u_cr_kme_regfile.u_SA_CTRL
+Estimate        1056 flops
+TESTNAME= SEED=1
+--- "rst_n" is being ASSERTED for 100ns ---
+--- "rst_n" has been DE-ASSERTED! ---
+APB_INFO:  @time:251                  Openned test file -->  ../tests/kme.config
+APB_INFO:  @time:251                  vector --> w 0x00000310 0x8baee4c8
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:263                  vector --> w 0x00000314 0x4e4ad426
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:276                  vector --> w 0x00000318 0xc38810b3
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:288                  vector --> w 0x0000031c 0x8aafb6e5
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:301                  vector --> w 0x00000320 0x62dba4b2
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:313                  vector --> w 0x00000324 0x562ff870
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:326                  vector --> w 0x00000328 0xa60687fe
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:338                  vector --> w 0x0000032c 0x6299da21
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:351                  vector --> w 0x00000330 0x5c9262fb
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:363                  vector --> w 0x00000334 0x0f423395
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:376                  vector --> w 0x00000338 0xdbf0fa03
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:388                  vector --> w 0x00000344 0xae9f2a40
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:401                  vector --> w 0x00000348 0x6e0405b5
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:413                  vector --> w 0x0000034c 0x82684931
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:426                  vector --> w 0x00000350 0x646c9346
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:438                  vector --> w 0x00000354 0x2ffdf873
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:451                  vector --> w 0x00000358 0xd68af4e9
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:463                  vector --> w 0x0000035c 0xa97251f7
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:476                  vector --> w 0x00000360 0x255d1721
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:488                  vector --> w 0x00000364 0xbc441e65
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:501                  vector --> w 0x00000368 0xe9e6c3ec
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:513                  vector --> w 0x0000036c 0x6e108e86
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:526                  vector --> w 0x00000370 0x029d52d2
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:538                  vector --> r 0x00000308 0x00000001
+
+APB_ERROR:  @time:551                    Data MISMATCH --> Actual: 0x00000000  Expect: 0x00000001
+APB_INFO:  @time:552                  vector --> w 0x00000308 0x00000003
+
+		Jane: begin write
+		Jane: end write
+APB_INFO:  @time:564                  vector --> r 0x0000019c 0x00000000
+
+TOOL:	xrun(64)	24.09-s010: Exiting on Aug 22, 2025 at 11:40:00 PDT  (total: 00:00:11)

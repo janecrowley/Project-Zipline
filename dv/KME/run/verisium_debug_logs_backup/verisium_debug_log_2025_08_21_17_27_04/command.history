@@ -1,0 +1,2 @@
+Connected to dc:sjcvl-janec.cadence.com:56687
+xmsim stop -file /home/janec/Documents/svg_ae_rampup/project_zipline/Project-Zipline/dv/KME/run/kme_tb.v -line 307 -all

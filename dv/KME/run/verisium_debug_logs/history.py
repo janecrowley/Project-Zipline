@@ -1,9 +1,9 @@
 #########################################################################
 # Verisium Debug version 25.06.071-a (Built on 2025-07-15T09:25:56Z)
-# history.py generated at 2025/08/21 09:43:39
+# history.py generated at 2025/08/21 14:06:50
 # host: sjcvl-janec
-# port: 39991
-# launch command: indago -connect dc:sjcvl-janec.cadence.com:59151 -interactive
+# port: 36319
+# launch command: indago -connect dc:sjcvl-janec.cadence.com:54109 -interactive
 # #########################################################################
 import time, os, sys
 if 'self' not in globals():
@@ -12,11 +12,11 @@ if 'self' not in globals():
     self = VerisiumDebugServer(VerisiumDebugArgs(
         is_gui=True,
         is_launch_needed=True,
-        port=39991,
-        extra_args='-connect dc:sjcvl-janec.cadence.com:59151 -interactive'
+        port=36319,
+        extra_args='-connect dc:sjcvl-janec.cadence.com:54109 -interactive'
     ))
 
-# Verisium: Attempting to connect to Verisium server on host: localhost, port: 39991
+# Verisium: Attempting to connect to Verisium server on host: localhost, port: 36319
 # Verisium: **************************************************************************************
 # Verisium: *****                        Verisium version 25.06.071-a                        *****
 # Verisium: *****                 NOTE: Some API features are Beta quality.                  *****
